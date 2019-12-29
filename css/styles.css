@@ -1,0 +1,772 @@
+html {
+font-size : 14px;
+}
+body {
+font-family : Arial, Helvetica, sans-serif;
+}
+header {
+background : url(/images/background1.jpg) center no-repeat;
+background-size : cover;
+min-height : 40rem;
+}
+header img {
+padding-top : 3rem;
+margin-bottom : 2em;
+width : 25%;
+}
+#section1 {
+margin-bottom : 3rem;
+}
+#info {
+border : #ffffff solid 0.8em;
+padding : 2em;
+}
+.text-gris {
+color : #333333;
+font-size : 3.8rem;;
+font-weight : bold;
+}
+.prix {
+color : #ffffff;
+font-size : 10rem;
+font-weight : bold;
+line-height : 0.7em;
+}
+.description {
+color : #ffffff;
+font-size : 2rem;
+line-height : 1.7rem;
+}
+#section1 a {
+background-color : #ffffff;
+color : #29d5c9;
+border-radius : 2rem;
+padding : 0.3rem 0.8rem;
+font-weight : bold;
+font-size : 2rem;
+transition : all 0.3s;
+margin-bottom : 2rem;
+margin-top : 2rem;
+}
+#section1 a:hover {
+text-decoration : none;
+color : #333333;
+}
+#contenu-section1 {
+margin-top : 2rem;
+}
+#contenu-section1 h1 {
+color : #29d5c9;
+font-size : 2.5em;
+font-weight : bold;
+}
+#comment p{
+    position: relative;
+}
+#comment p i{
+    position: absolute;
+    left: -1.1rem;
+    top: .3rem;
+}
+#formulaire {
+border : #29d5c9 solid 0.4rem;
+background : #ffffff;
+min-height : 30rem;
+text-align : center;
+padding-top : 1rem;
+padding-bottom : 1rem;
+margin : auto;
+}
+#formulaire h2 {
+color : #29d5c9;
+font-size : 1.5rem;
+padding-bottom : 1rem;
+font-weight : bold;
+line-height : 2rem;
+}
+.proprietaire {
+padding-top : 2em;
+color : black;
+}
+#oui {
+background-color : #29d5c9;
+color : #ffffff;
+min-width : 7rem;
+padding: 1rem;
+font-size: 1.2rem;
+}
+#formulaire button {
+outline : none;
+border : none;
+}
+#formulaire2 button {
+background-color : #29d5c9;
+width : 40%;
+min-height : 7em;
+border : none;
+margin-bottom : 0.4em;
+color: #ffffff;
+line-height: 1.2rem;
+vertical-align: top;
+}
+#formulaire2 img {
+width : 60%;
+display: block;
+margin: auto;
+}
+#formulaire2 button p {
+color : #ffffff;
+font-size : 0.8em;
+}
+#autre input {
+width : 82%;
+background-color : #29d5c9;
+border : none;
+color : #ffffff;
+font-size: 1.3rem;
+}
+#formulaire2 p {
+font-size : 1.4rem;
+line-height : 1.4rem;
+}
+#formulaire3 input {
+margin-top : 1.1em;
+border-radius : 0;
+background-color : whitesmoke;
+border : none;
+}
+#formulaire3 .form-control {
+font-size : 1rem;
+color : #000;
+}
+#formulaire3 button[type="submit"] {
+background-color : #29d5c9;
+border-radius : 10em;
+color : #ffffff;
+margin-top : 1.3em;
+font-size : 1.3rem;
+}
+#section2 {
+background : url(/images/background2.jpg) center no-repeat;
+background-size : cover;
+padding-top : 10em;
+padding-bottom : 10em;
+}
+#section2 h1 {
+color : #ffffff;
+font-size : 2.5em;
+font-weight : bold;
+}
+#section2 p {
+margin-bottom : 1rem;
+font-size : 1.25rem;
+}
+#section3 {
+background : #333333;
+color : white;
+margin-bottom : 5em;
+padding-bottom : 3em;
+text-align : center;
+}
+#section3 h1 {
+color : white;
+font-size : 2.5em;
+line-height : 1.2em;
+text-align : center;
+width : 100%;
+font-weight : bold;
+padding : 2em;
+}
+.bleu-clair {
+color : #29d5c9;
+}
+#section3 img {
+margin-bottom : 1.3em;
+width : 30%;
+}
+#section3 .margin-img {
+margin-top : 4em;
+}
+#section3 a {
+background-color : #29d5c9;
+text-align : center;
+color : #ffffff;
+border-radius : 2em;
+display : inline;
+margin : auto;
+padding : 0.3em 0.8em;
+font-weight : bold;
+font-size : 1.8rem;
+transition : all 0.4s;
+}
+#section3 a:hover {
+text-decoration : none;
+color : #333333;
+}
+#section4 h1 {
+text-align : center;
+width : 100%;
+margin : auto;
+line-height : 3rem;
+}
+.contenu4 {
+background-color : #29d5c9;
+box-shadow : 0 1rem 1rem 0.5rem #ccc;
+width : 80%;
+padding : 2rem;
+}
+.contenu4 h1 {
+font-size : 2.5rem;
+line-height : 1rem;
+font-weight : bold;
+padding : 2em;
+}
+.contenu4 h2 {
+font-size : 1.8rem;
+line-height : 1.8rem;
+font-weight : bold;
+color : #ffffff;
+}
+.contenu4 p {
+font-size : 1.1rem;
+}
+.contenu4 ul {
+list-style : none;
+padding-left : 0;
+font-size : 1.4rem;
+color : #ffffff;
+}
+.contenu4 li {
+margin-bottom : 1em;
+}
+#climatiseur {
+position : relative;
+}
+#climatiseur img {
+    position: absolute;
+    width: 125%;
+    right: -16em;
+    top: -10em;
+}
+.ma-prime {
+margin-top : 6em;
+padding : 2em;
+}
+.ma-prime p {
+margin-bottom : 0.3rem;
+}
+.ma-prime img {
+width : 75%;
+}
+.hiver-ete {
+display : flex;
+margin-top : 2em;
+margin-left : 3em;
+text-align : center;
+}
+.hiver-ete img {
+width : 100%;
+}
+.hiver-ete p {
+font-size : 4rem;
+font-style : italic;
+line-height : 1.3em;
+}
+#section4 a {
+background-color : #333333;
+font-size: 1.8rem;
+text-align : center;
+color : #ffffff;
+border-radius : 2em;
+display : inline;
+margin : auto;
+padding : 0.3em 0.8em;
+font-weight : bold;
+margin-top : 2em;
+transition : all 0.4s;
+}
+#section4 a:hover {
+color : #29d5c9;
+text-decoration : none;
+}
+#section5 {
+margin-top : 4em;
+}
+#section5 h1 {
+color : #29d5c9;
+font-size : 2.5em;
+font-weight : bold;
+margin-top : 6rem;
+}
+#section5 img {
+width : 70%;
+}
+#formulaire-footer {
+border : #29d5c9 solid 0.4rem;
+background : #ffffff;
+min-height : 30rem;
+text-align : center;
+padding-top : 1rem;
+padding-bottom : 1rem;
+margin : auto;
+}
+#formulaire-footer h2 {
+color : #29d5c9;
+font-size : 1.5rem;
+padding-bottom : 1rem;
+font-weight : bold;
+line-height : 2rem;
+}
+.proprietaire {
+padding-top : 2em;
+color : black;
+font-size: 1.3rem;
+}
+#oui-footer {
+    background-color:#29d5c9;
+    color:#ffffff;
+    min-width: 7rem;
+    padding: 1rem;
+    font-size: 1.2rem;
+}
+#formulaire-footer button {
+outline : none;
+border : none;
+}
+#formulaire-footer2 button {
+background-color : #29d5c9;
+color: #ffffff;
+width : 40%;
+min-height : 7em;
+border : none;
+margin-bottom : 0.4em;
+line-height: 1.2rem;
+vertical-align : top;
+}
+#formulaire-footer2 img {
+width : 60%;
+display: block;
+margin: auto;
+}
+#formulaire-footer2 button p {
+color : #ffffff;
+font-size : 0.8em;
+}
+#autre-footer input {
+width : 82%;
+background-color : #29d5c9;
+border : none;
+color : #ffffff;
+font-size: 1.3rem;
+}
+#formulaire-footer2 p {
+font-size : 1.4rem;
+line-height : 1.4rem;
+}
+#formulaire-footer3 input {
+margin-top : 1.1em;
+border-radius : 0;
+background-color : whitesmoke;
+border : none;
+}
+#formulaire-footer3 .form-control {
+font-size : 1rem;
+color : #000;
+}
+#formulaire-footer3 button[type="submit"] {
+background-color : #29d5c9;
+border-radius : 10em;
+color : #ffffff;
+margin-top : 1.3em;
+font-size : 1.3rem;
+}
+footer {
+background-color : #29d5c9;
+min-height : 2em;
+margin-top : 2em;
+}
+#formulaire2, #formulaire3 {
+display : none;
+}
+#formulaire-footer2, #formulaire-footer3 {
+display : none;
+}
+
+@media (max-width: 480px) {
+    #contenu-section1{
+        position: relative;
+        min-height: 60rem;
+    }
+    #comment{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+    }
+    #formulaire{
+        position: absolute;
+        top: -5rem;
+        left: 0;
+        right: 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+/*================================smartphone===========================*/
+@media (max-width: 576px) {
+header img {
+padding-top : 2rem;
+width : 60%;
+display : block;
+margin : auto;
+}
+header a {
+font-size : 1.1rem;
+}
+#section1 a {
+font-size : 1rem;
+margin-top: 0;
+}
+#info {
+border : #ffffff solid 0.5rem;
+margin-top : 2rem;
+margin-bottom : 2rem;
+overflow : visible;
+}
+.text-gris {
+color : #333333;
+font-size : 1.8rem;
+font-weight : bold;
+}
+.prix {
+color : #ffffff;
+font-weight : bold;
+font-size : 5rem;
+line-height : 5rem;
+}
+.description {
+color : #ffffff;
+font-size : 1.2rem;
+}
+header a {
+text-align : center;
+margin : auto;
+background-color : #ffffff;
+color : #29d5c9;
+border-radius : 2em;
+padding : 0.3em 0.8em;
+font-weight : bold;
+font-size : 1.3em;
+transition : all 0.3s;
+margin-bottom : 2em;
+}
+#contenu-section1{
+    position: relative;
+    min-height: 67rem;
+}
+#comment{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+#formulaire2 button{
+    width: 40%;
+}
+#formulaire2 img{
+    width: 40%;
+}
+#formulaire-footer2 button{
+    width: 40%;
+}
+#formulaire-footer2 img{
+    width: 40%;
+}
+#formulaire{
+    position: absolute;
+    top: -3rem;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+#contenu-section1 h1{
+    font-size: 2rem;
+}
+#comment {
+margin : auto;
+}
+#comment-possible p {
+position : relative;
+}
+#comment-possible i {
+position : absolute;
+left : -1rem;
+top : 0.3rem;
+}
+#section2 {
+padding-top : 6rem;
+padding-bottom : 6rem;
+}
+#section2 h1 {
+color : #333333;
+font-size : 1.8em;
+font-weight : bold;
+text-align : center;
+}
+#section2 .col-10 {
+margin : auto;
+}
+#section2 p {
+color : #ffffff;
+text-align : center;
+margin-bottom : 0.3rem;
+font-size : 1.1rem;
+}
+#section3{
+    margin-bottom: 1rem;
+}
+#section3 a{
+    font-size: 1.1rem;
+}
+#section3 h1{
+    font-size: 2rem;
+    padding: 1rem;
+}
+#section3 img {
+margin-bottom : 1.3em;
+width : 20%;
+}
+#section3 p {
+font-size : 1.1rem;
+}
+#formulaire h2{
+    font-size: 1.8rem;
+    line-height: 2rem;
+}
+.proprietaire{
+    font-size: 1.5rem;
+}
+#oui{
+    min-width: 7rem;
+    padding: 1rem;
+}
+#section5 h1{
+    margin-left: 2rem;
+    font-size: 2rem;
+    margin-top: 0;
+}
+#section5 .titre-img {
+margin : auto;
+}
+.logo-footer{
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+}
+fieldset{
+    font-size: 1.3rem;
+}
+#section4 {
+display : none;
+}
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+header img {
+padding-top : 2rem;
+width : 60%;
+display : block;
+margin : auto;
+}
+header a {
+font-size : 1.1rem;
+}
+#info {
+border : #ffffff solid 0.5rem;
+margin-top : 2rem;
+margin-bottom : 2rem;
+overflow : visible;
+}
+.text-gris {
+color : #333333;
+font-size : 3.3rem;
+font-weight : bold;
+}
+.prix {
+color : #ffffff;
+font-weight : bold;
+font-size : 8.5rem;
+line-height : 6rem;
+}
+.description {
+color : #ffffff;
+font-size : 1.8rem;
+}
+header a {
+text-align : center;
+margin : auto;
+background-color : #ffffff;
+color : #29d5c9;
+border-radius : 2em;
+padding : 0.3em 0.8em;
+font-weight : bold;
+font-size : 1.3em;
+transition : all 0.3s;
+margin-bottom : 2em;
+}
+#formulaire2 button{
+    width: 40%;
+    min-height: 8rem;
+}
+#formulaire2 button img{
+    width: 50%;
+}
+#autre input{
+    width: 81%;
+}
+#formulaire-footer2 button{
+    width: 40%;
+    min-height: 8rem;
+}
+#formulaire-footer2 button img{
+    width: 50%;
+}
+#autre-footer input{
+    width: 81%;
+}
+#formulaire {
+margin : auto;
+}
+#comment {
+margin : auto;
+}
+#comment-possible p {
+position : relative;
+}
+#comment-possible i {
+position : absolute;
+left : -1rem;
+top : 0.3rem;
+}
+#section2 {
+padding-top : 6rem;
+padding-bottom : 6rem;
+}
+#section2 h1 {
+color : #333333;
+font-size : 1.9em;
+font-weight : bold;
+text-align : center;
+}
+#section2 .col-10 {
+margin : auto;
+}
+#section2 p {
+color : #ffffff;
+text-align : center;
+margin-bottom : 0.3rem;
+font-size : 1.1rem;
+}
+#section3 img {
+margin-bottom : 1.3em;
+width : 20%;
+}
+#section3 p {
+font-size : 1.1rem;
+}
+#formulaire h2{
+    font-size: 2.5rem;
+    line-height: 3rem;
+}
+.proprietaire{
+    font-size: 1.5rem;
+}
+#oui{
+    min-width: 7rem;
+    padding: 1rem;
+}
+#section5 h1{
+    margin-left: 2rem;
+}
+#section5 .titre-img {
+margin : auto;
+}
+.logo-footer {
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+}
+fieldset{
+    font-size: 1.4rem;
+}
+#section4 {
+display : none;
+}
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+.prix {
+font-size : 6rem;
+}
+.text-gris{
+    font-size: 2.3rem;
+}
+.description{
+    font-size: 1.3rem;
+}
+#section1 a{
+    font-size: 1.4rem;
+}
+#contenu-section1 h1{
+    font-size: 2rem;
+}
+#section2 h1{
+    font-size: 2rem;
+}
+#formulaire2 button{
+    width: 48%;
+    font-size: .8rem;
+}
+#autre input{
+    width: 99%;
+}
+#formulaire-footer2 button{
+    width: 48%;
+    font-size: .8rem;
+}
+#autre-footer input{
+    width: 99%;
+}
+#section3 .margin-img{
+    margin-top: 2.6rem;
+}
+#section3 .mt-5{
+    margin: 0;
+}
+#formulaire-footer3 .form-control{
+    font-size: .65rem;
+}
+#section5 h1{
+    font-size: 1.8rem;
+}
+#section4 {
+display : none;
+}
+}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+#climatiseur img{
+    right: -12rem;
+}
+.prix {
+font-size : 8rem;
+}
+.text-gris{
+    font-size: 3rem;
+}
+.description{
+    font-size: 1.5rem;
+}
+#section1 a{
+    font-size: 1.8rem;
+}
+}
+@media (min-width: 1200px) {
+
+}
