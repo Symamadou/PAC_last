@@ -5,11 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>PAC - Pompe A Chaleur</title>
-    <link rel="stylesheet" href="/css/bootstrap.min.css">
-    <link rel="stylesheet" href="/font-awesome-4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/styles.css">
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
-    <script type="text/javascript" src="/js/monScript.js"></script>
+    <script type="text/javascript" src="./js/monScript.js"></script>
 </head>
 
 <body>
@@ -46,33 +46,33 @@
             <!--********************************formulaire*****************************-->
             <div id="formulaire" class="col-10 col-md-3">
     <h2>Découvrez le montant de vos aides</h2>
-    <form id="formulaire1">
+    <div id="formulaire1">
         <p class="proprietaire">Êtes-vous bien <br> propriétaire <br>de votre maison ?</p>
         <bouton id="oui" value="Oui">Oui</bouton>
-    </form>
+    </div>
 <!--******************************fin form1********************************-->
-    <form id="formulaire2" action="contact.php">
+    <div id="formulaire2">
         <p>Votre chauffage <br>actuel</p>
         
-        <button id="fioul"><img src="/images/picto-fioul.png" alt="fioul">Fioul</button>
-        <button id="gaz">
-            <img src="/images/picto-gaz.png" alt="Gaz">
+        <button id="fioul" class="js_goform3"><img src="./images/picto-fioul.png" alt="fioul">Fioul</button>
+        <button id="gaz" class="js_goform3">
+            <img src="./images/picto-gaz.png" alt="Gaz">
             Gaz
         </button>
-        <button id="elec">
-            <img src="/images/picto-elec.png" alt="Electricité">
+        <button id="elec" class="js_goform3">
+            <img src="./images/picto-elec.png" alt="Electricité">
             Electricité
         </button>
-        <button id="pompe">
-            <img src="/images/picto-pac.png" alt="Pompe à chaleur">
+        <button id="pompe" class="js_goform3">
+            <img src="./images/picto-pac.png" alt="Pompe à chaleur">
             Pompe <br> à chaleur
         </button>
         <div id="autre">
             <input type="text" value="Autre">
         </div>
-    </form>
+    </div>
     <!--********************************fin form 2*****************************-->
-    <form id="formulaire3" method="POST">
+    <form id="formulaire3">
         <fieldset>Vos informations</fieldset>
         <input class="form-control" type="text" placeholder="Consomation actuelle" name="consommation">
         <input class="form-control" type="text" placeholder="Surface de votre habitation" name="surface">
@@ -105,17 +105,17 @@
             <div class="row"><h1>Pourquoi changer<br> ma chaudière ?</h1></div>
             <div class="row">
                 <div class="col-12 col-md-4">
-                    <img src="/images/picto1.png" alt="Reduire votre facture" class="margin-img">
+                    <img src="./images/picto1.png" alt="Reduire votre facture" class="margin-img">
                     <p><span class="bleu-clair"><strong>Réduire votre facture</strong></span> <br>
                     énergétique car votre <br>équipement de chauffage <br> actuel est trop énergivore</p>
                 </div><!--fin col4-->
                 <div class="col-12 col-md-4">
-                    <img src="/images/picto2.png" alt="Améliorer votre confort" class="confort">
+                    <img src="./images/picto2.png" alt="Améliorer votre confort" class="confort">
                     <p><span class="bleu-clair"><strong>éliorer votre confort</strong></span> <br>
                         thermique enfin de vous sentir <br> mieux au sein de votre <br> habitation</p>
                 </div><!--fin col4-->
                 <div class="col-12 col-md-4">
-                    <img src="/images/picto3.png" alt="Renouveler votre systeme" class="mt-5 confort">
+                    <img src="./images/picto3.png" alt="Renouveler votre systeme" class="mt-5 confort">
                     <p><span class="bleu-clair"><strong>système</strong></span> <br>
                         actuel qui est vieillissant <br> et qui n'est pas <br> assez performant</p>
                 </div><!--fin col4-->
@@ -139,12 +139,12 @@
                     </ul>
                 </div>
                 <div id="climatiseur" class="col-md-6">
-                    <img src="/images/pac-air-air.png" alt="pac-air-air">
+                    <img src="./images/pac-air-air.png" alt="pac-air-air">
                 </div><!--fin col6-->
             </div><!--fin row-->
             <div class="row ma-prime">
                 <div class="col-md-7">
-                    <img src="/images/ma-prime.jpg" alt="ma-prime">
+                    <img src="./images/ma-prime.jpg" alt="ma-prime">
                 </div><!--fin col4-->
                 <div class="col-md-4">
                     <h2>Quelles sont <br> les aides ?</h2>
@@ -159,9 +159,9 @@
                 </div><!--fin col4-->
             </div><!--fin row-->
             <div class="row hiver-ete">
-                <div class="col-md-2"><img src="/images/noun_Thermometer_343614.png" alt="thermometre"></div>
+                <div class="col-md-2"><img src="./images/noun_Thermometer_343614.png" alt="thermometre"></div>
                 <div class="col-md-8"><p><strong>un hiver au chaud <br> et l'été au frais</strong></p></div>
-                 <div class="col-md-2"><img src="/images/noun_Hot_343623.png" alt="radiateur"></div>
+                 <div class="col-md-2"><img src="./images/noun_Hot_343623.png" alt="radiateur"></div>
                 <a href="#">Découvrez le montant de vos aides</a>
             </div>
         </div><!--fin container-->
@@ -173,7 +173,7 @@
                 <div class="offset-md-1"></div>
                 <div class="col-12 col-md-5">
                     <h1>Simple, rapide <br>et sans engagement !</h1>
-                    <img src="/images/Logo-Premium-bleu.png" alt="Logo" class="logo-footer">
+                    <img src="./images/Logo-Premium-bleu.png" alt="Logo" class="logo-footer">
                 </div><!--fin col6-->
 
                 <div id="formulaire-footer" class="col-10 col-md-3">
@@ -186,17 +186,17 @@
                     <form id="formulaire-footer2" action="contact.php">
                         <p>Votre chauffage <br>actuel</p>
                         
-                        <button id="fioul-footer"><img src="/images/picto-fioul.png" alt="fioul">Fioul</button>
+                        <button id="fioul-footer" class="goform3"><img src="./images/picto-fioul.png" alt="fioul">Fioul</button>
                         <button id="gaz-footer">
-                            <img src="/images/picto-gaz.png" alt="">
+                            <img src="./images/picto-gaz.png" alt="">
                             Gaz
                         </button>
                         <button id="elec-footer">
-                            <img src="/images/picto-elec.png" alt="">
+                            <img src="./images/picto-elec.png" alt="">
                             Electricité
                         </button>
                         <button id="pompe-footer">
-                            <img src="/images/picto-pac.png" alt="">
+                            <img src="./images/picto-pac.png" alt="">
                             Pompe <br> à chaleur
                         </button>
                         <div id="autre-footer">
@@ -219,7 +219,7 @@
         </div><!--fin container-->
     </section>
    <footer></footer>
-<script src="/js/jquery-3.4.1.js"></script>
-<script src="/js/bootstrap.bundle.min.js"></script>
+<script src="./js/jquery-3.4.1.js"></script>
+<script src="./js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
