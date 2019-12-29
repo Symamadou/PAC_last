@@ -385,10 +385,10 @@ background-color : #29d5c9;
 min-height : 2em;
 margin-top : 2em;
 }
-#formulaire1, #formulaire2 {
+#formulaire2, #formulaire3 {
 display : none;
 }
-#formulaire-footer1, #formulaire-footer2 {
+#formulaire-footer2, #formulaire-footer3 {
 display : none;
 }
 
