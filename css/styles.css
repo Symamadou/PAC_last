@@ -5,7 +5,7 @@ body {
 font-family : Arial, Helvetica, sans-serif;
 }
 header {
-background : url(/images/background1.jpg) center no-repeat;
+background : url(../images/background1.jpg) center no-repeat;
 background-size : cover;
 min-height : 40rem;
 }
@@ -147,7 +147,7 @@ margin-top : 1.3em;
 font-size : 1.3rem;
 }
 #section2 {
-background : url(/images/background2.jpg) center no-repeat;
+background : url(../images/background2.jpg) center no-repeat;
 background-size : cover;
 padding-top : 10em;
 padding-bottom : 10em;
