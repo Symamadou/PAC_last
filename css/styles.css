@@ -118,12 +118,13 @@ margin: auto;
 color : #ffffff;
 font-size : 0.8em;
 }
-#autre input {
+#autre button {
 width : 82%;
 background-color : #29d5c9;
 border : none;
 color : #ffffff;
 font-size: 1.3rem;
+min-height: 2rem;
 }
 #formulaire2 p {
 font-size : 1.4rem;
@@ -352,12 +353,13 @@ margin: auto;
 color : #ffffff;
 font-size : 0.8em;
 }
-#autre-footer input {
+#autre-footer button {
 width : 82%;
 background-color : #29d5c9;
 border : none;
 color : #ffffff;
 font-size: 1.3rem;
+min-height: 2rem;
 }
 #formulaire-footer2 p {
 font-size : 1.4rem;
@@ -473,6 +475,10 @@ margin-bottom : 2em;
 #formulaire2 button{
     width: 40%;
 }
+#autre button{
+    width: 81%;
+    min-height: 2rem;
+}
 #formulaire2 img{
     width: 40%;
 }
@@ -551,6 +557,9 @@ font-size : 1.1rem;
     min-width: 7rem;
     padding: 1rem;
 }
+#autre-footer button{
+    min-width: 81%;
+}
 #section5 h1{
     margin-left: 2rem;
     font-size: 2rem;
@@ -620,8 +629,9 @@ margin-bottom : 2em;
 #formulaire2 button img{
     width: 50%;
 }
-#autre input{
+#autre button{
     width: 81%;
+    min-height: 2rem;
 }
 #formulaire-footer2 button{
     width: 40%;
@@ -630,8 +640,9 @@ margin-bottom : 2em;
 #formulaire-footer2 button img{
     width: 50%;
 }
-#autre-footer input{
+#autre-footer button{
     width: 81%;
+    min-height: 2rem;
 }
 #formulaire {
 margin : auto;
@@ -724,15 +735,16 @@ font-size : 6rem;
     width: 48%;
     font-size: .8rem;
 }
-#autre input{
+#autre button{
     width: 99%;
 }
 #formulaire-footer2 button{
     width: 48%;
     font-size: .8rem;
 }
-#autre-footer input{
+#autre-footer button{
     width: 99%;
+    min-height: 2rem;
 }
 #section3 .margin-img{
     margin-top: 2.6rem;

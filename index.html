@@ -30,7 +30,7 @@
                 </div><!--fin row-->
                 <div class="row">
                     <div class="offset-md-1"></div>
-                    <a href="#">Découvrez le montant de vos aides</a>
+                    <a href="#formulaire">Découvrez le montant de vos aides</a>
                 </div><!--fin row-->
             </div><!--fin container-->
         </header>
@@ -48,7 +48,8 @@
     <h2>Découvrez le montant de vos aides</h2>
     <div id="formulaire1">
         <p class="proprietaire">Êtes-vous bien <br> propriétaire <br>de votre maison ?</p>
-        <bouton id="oui" value="Oui">Oui</bouton>
+        
+        <button id="oui" type="submit" value="Oui">Oui</button>
     </div>
 <!--******************************fin form1********************************-->
     <div id="formulaire2">
@@ -67,18 +68,18 @@
             <img src="./images/picto-pac.png" alt="Pompe à chaleur">
             Pompe <br> à chaleur
         </button>
-        <div id="autre">
-            <input type="text" value="Autre">
+        <div id="autre" class="js_goform3">
+            <button type="text" value="Autre">Autre</button>
         </div>
     </div>
     <!--********************************fin form 2*****************************-->
-    <form id="formulaire3">
+    <form id="formulaire3" class="rafraichir">
         <fieldset>Vos informations</fieldset>
-        <input class="form-control" type="text" placeholder="Consomation actuelle" name="consommation">
-        <input class="form-control" type="text" placeholder="Surface de votre habitation" name="surface">
-        <input class="form-control" type="text" placeholder="Département" name="departement">
-        <input class="form-control" type="text" placeholder="Nom &amp; Prénom" name="prenom">
-        <input class="form-control" type="text" placeholder="Email" name="email">
+        <input class="form-control" type="text" placeholder="Consomation actuelle" name="consommation" required>
+        <input class="form-control" type="text" placeholder="Surface de votre habitation" name="surface" required>
+        <input class="form-control" type="text" placeholder="Département" pattern="[0-9]{5}" name="departement" required>
+        <input class="form-control" type="text" placeholder="Nom &amp; Prénom" name="prenom" required>
+        <input class="form-control" type="email" placeholder="Email" name="email">
         <button type="submit" name="envoyer" value="Validez">Validez</button>
     </form>
 </div>
@@ -119,7 +120,7 @@
                     <p><span class="bleu-clair"><strong>système</strong></span> <br>
                         actuel qui est vieillissant <br> et qui n'est pas <br> assez performant</p>
                 </div><!--fin col4-->
-                <a href="#">Découvrez le montant de vos aides</a>
+                <a href="#formulaire-footer">Découvrez le montant de vos aides</a>
             </div><!--fin row-->
         </div><!--fin contaier-->
     </section>
@@ -162,7 +163,7 @@
                 <div class="col-md-2"><img src="./images/noun_Thermometer_343614.png" alt="thermometre"></div>
                 <div class="col-md-8"><p><strong>un hiver au chaud <br> et l'été au frais</strong></p></div>
                  <div class="col-md-2"><img src="./images/noun_Hot_343623.png" alt="radiateur"></div>
-                <a href="#">Découvrez le montant de vos aides</a>
+                <a href="#formulaire-footer">Découvrez le montant de vos aides</a>
             </div>
         </div><!--fin container-->
     </section>
@@ -178,39 +179,39 @@
 
                 <div id="formulaire-footer" class="col-10 col-md-3">
                     <h2>Découvrez le montant de vos aides</h2>
-                    <form id="formulaire-footer1" action="contact.php">
+                    <div id="formulaire-footer1">
                         <p class="proprietaire">Êtes-vous bien <br> propriétaire <br>de votre maison ?</p>
-                        <button id="oui-footer" type="submit" value="Oui">Oui</button>
-                    </form>
+                        <button id="oui-footer" type="submit" value="Oui" >Oui</button>
+                    </div>
                 <!--******************************fin form1********************************-->
-                    <form id="formulaire-footer2" action="contact.php">
+                    <div id="formulaire-footer2">
                         <p>Votre chauffage <br>actuel</p>
                         
                         <button id="fioul-footer" class="goform3"><img src="./images/picto-fioul.png" alt="fioul">Fioul</button>
-                        <button id="gaz-footer">
+                        <button id="gaz-footer" class="js_goform3">
                             <img src="./images/picto-gaz.png" alt="">
                             Gaz
                         </button>
-                        <button id="elec-footer">
+                        <button id="elec-footer" class="js_goform3">
                             <img src="./images/picto-elec.png" alt="">
                             Electricité
                         </button>
-                        <button id="pompe-footer">
+                        <button id="pompe-footer" class="js_goform3">
                             <img src="./images/picto-pac.png" alt="">
                             Pompe <br> à chaleur
                         </button>
-                        <div id="autre-footer">
-                            <input type="text" value="Autre">
+                        <div id="autre-footer" class="js_goform3">
+                            <button value="Autre">Autre</button>
                         </div>
-                    </form>
+                    </div>
                     <!--*****************************fin form 2***************************-->
-                    <form id="formulaire-footer3" action="contact.php">
+                    <form id="formulaire-footer3">
                         <fieldset>Vos informations</fieldset>
-                        <input class="form-control" type="text" placeholder="Consomation actuelle" name="consommation-footer">
-                        <input class="form-control" type="text" placeholder="Surface de votre habitation" name="surface-footer">
-                        <input class="form-control" type="text" placeholder="Département" name="departement">
-                        <input class="form-control" type="text" placeholder="Nom &amp; Prénom" name="prenom">
-                        <input class="form-control" type="text" placeholder="Email" name="email">
+                        <input class="form-control" type="text" placeholder="Consomation actuelle" name="consommation-footer" required>
+                        <input class="form-control" type="text" placeholder="Surface de votre habitation" name="surface-footer" required>
+                        <input class="form-control" type="text" placeholder="Département" name="departement" pattern="[0-9]{5}" required>
+                        <input class="form-control" type="text" placeholder="Nom &amp; Prénom" name="prenom" required>
+                        <input class="form-control" type="email" placeholder="Email" name="email" required>
                         <button type="submit" value="Validez">Validez</button>
                     </form>
                 </div>
@@ -219,6 +220,9 @@
         </div><!--fin container-->
     </section>
    <footer></footer>
+   <script type='text/javascript'>
+    
+    </script>  
 <script src="./js/jquery-3.4.1.js"></script>
 <script src="./js/bootstrap.bundle.min.js"></script>
 </body>
