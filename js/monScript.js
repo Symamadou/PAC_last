@@ -1,7 +1,16 @@
 $(document).ready(function(){     
   $("#oui").click(function(){
-      $("#formulaire1").hide();
-      $(".formulaire2").show();
+
+    $("#formulaire1").hide();
+    $("#formulaire2").show();
+    $("#oui").preventDefault();
+  });
+
+  $('.js_goform3').click(function(){
+    $("#formulaire1").hide();
+    $("#formulaire2").hide();
+    $("#formulaire3").show();
+    $("#oui").preventDefault();
   });
   var start = document.getElementsByName('envoyer');
 
